@@ -1,0 +1,4 @@
+rw : when the buffer gets too small for all pending data;
+rw : when flush() is called;
+rw : when a seek() is requested (for BufferedRandom objects);
+rw : when the BufferedWriter object is closed or destroyed.

@@ -1,0 +1,3 @@
+(<class '_io._BufferedIOBase'>, <class 'io.IOBase'>)
+(<class '_io._BufferedIOBase'>,)
+{'peek', 'raw', 'mode', 'name', '_finalizing', '_dealloc_warn', '__getstate__'}

@@ -1,0 +1,4 @@
+The module defines a mixin, DictMixin, defining all dictionary methods
+for classes that already have a minimum mapping interface.
+This greatly simplifies writing classes that need to be substitutable
+for dictionaries (such as the shelve module).

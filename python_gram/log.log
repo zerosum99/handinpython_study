@@ -1,0 +1,386 @@
+# IPython log file
+
+import logging
+
+Level = {'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARTNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+for k,w in Level.items() :
+    logging.basicCongig(level=w)
+    
+    print(" logging ", w)
+
+    logging.debug('이 예제는 디버그 처리')
+    logging.info(' 이 예제는 정보관리')
+    logging.warning('이 예제는 경고 처리')
+    logging.error(' 이 예제는 에러 관리')
+    logging.critical('이 예제는 중요한 에러 발생 ')
+import logging
+
+Level = {'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+for k,w in Level.items() :
+    logging.basicCongig(level=w)
+    
+    print(" logging ", w)
+
+    logging.debug('이 예제는 디버그 처리')
+    logging.info(' 이 예제는 정보관리')
+    logging.warning('이 예제는 경고 처리')
+    logging.error(' 이 예제는 에러 관리')
+    logging.critical('이 예제는 중요한 에러 발생 ')
+import logging
+
+Level = {'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+for k,w in Level.items() :
+    logging.basicConfig(level=w)
+    
+    print(" logging ", w)
+
+    logging.debug('이 예제는 디버그 처리')
+    logging.info(' 이 예제는 정보관리')
+    logging.warning('이 예제는 경고 처리')
+    logging.error(' 이 예제는 에러 관리')
+    logging.critical('이 예제는 중요한 에러 발생 ')
+import logging
+
+Level = {'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+for k,w in Level.items() :
+    logging.basicConfig(level=w)
+    
+    print(" logging ", w)
+
+    logging.debug('이 예제는 디버그 처리 %d' % w)
+    logging.info(' 이 예제는 정보관리%d' % w)
+    logging.warning('이 예제는 경고 처리%d' % w)
+    logging.error(' 이 예제는 에러 관리 %d' % w)
+    logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+for k,w in Level.items() :
+    logging.basicConfig(level=w)
+    
+    print(" logging ", w)
+
+    logging.debug('이 예제는 디버그 처리 %d' % w)
+    logging.info(' 이 예제는 정보관리%d' % w)
+    logging.warning('이 예제는 경고 처리%d' % w)
+    logging.error(' 이 예제는 에러 관리 %d' % w)
+    logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+for k,w in Level.items() :
+    logging.basicConfig(level=w)
+    
+    print(" logging ", w)
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+log_level_set = input(">>> log level ")
+
+
+logging.basicConfig(level=Levle.get(log_level_set, logging.NOTSET))
+    
+print(" logging ", w)
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+log_level_set = input(">>> log level ")
+
+
+logging.basicConfig(level=Levle.get(log_level_set, logging.NOTSET))
+    
+print(" logging ", log_level_set)
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+log_level_set = input(">>> log level ")
+
+
+logging.basicConfig(level=Level.get(log_level_set, logging.NOTSET))
+    
+print(" logging ", log_level_set)
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+log_level_set = input(">>> log level ")
+
+w = Level.get(log_level_set, logging.NOTSET)
+logging.basicConfig(level=w)
+    
+print(" logging ", log_level_set)
+
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+log_level_set = input(">>> log level ")
+print(log_level_set)
+
+w = Level.get(log_level_set, logging.NOTSET)
+logging.basicConfig(level=w)
+    
+print(" logging ", log_level_set)
+
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warnig' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+log_level_set = input(">>> log level ")
+print(log_level_set)
+
+w = Level.get(log_level_set, logging.NOTSET)
+logging.basicConfig(level=w)
+    
+print(" logging ", log_level_set)
+
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+logging.WARNING
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warning' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+log_level_set = input(">>> log level ")
+print(log_level_set)
+
+w = Level.get(log_level_set, logging.NOTSET)
+logging.basicConfig(level=w)
+    
+print(" logging ", log_level_set)
+
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warning' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+log_level_set = input(">>> log level ")
+print(log_level_set)
+
+w = Level.get(log_level_set, logging.NOTSET)
+logging.basicConfig(level=w)
+    
+print(" logging ", log_level_set)
+
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+import sys
+
+dir(sys)
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warning' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+log_level_set = input(">>> log level ")
+
+w = Level.get(log_level_set, logging.NOTSET)
+logging.basicConfig(level=w)
+    
+print(" logging ", log_level_set)
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+logging.Filter
+logging.Filter.filter
+logging.Filter.filter()
+help(logging.Filter.filter)
+import logging
+
+logging.basicConfig(filename="log.log", level=logging.DEBUG)
+
+logging.debug("파일 출력")
+
+with open("log.log","rt") as f :
+    s = f.read()
+print(s)
+import logging
+
+logging.basicConfig(filename="log.out, level=logging.DEBUG)
+
+logging.debug("파일 출력")
+
+with open("log.out","rt") as f :
+    s = f.read()
+print(s)
+import logging
+
+logging.basicConfig(filename="log.out", level=logging.DEBUG)
+
+logging.debug("파일 출력")
+
+with open("log.out","rt") as f :
+    s = f.read()
+print(s)
+get_ipython().run_cell_magic('writefile', 'file_example.py', '\nimport logging\n\nlogging.basicConfig(filename="log.out", level=logging.DEBUG)\n\nlogging.debug("파일 출력")\n\nwith open("log.out","rt") as f :\n    s = f.read()\nprint(s)')
+get_ipython().magic('run file_example.py')
+get_ipython().run_cell_magic('writefile', 'log.out', '')
+get_ipython().run_cell_magic('writefile', 'log.out', '###')
+get_ipython().run_cell_magic('writefile', 'file_example.py', '\nimport logging\n\nlogging.basicConfig(filename="log.out", level=logging.DEBUG)\n\nlogging.debug("파일 출력")\n\nwith open("log.out","rt") as f :\n    s = f.read()\nprint(s)')
+get_ipython().magic('run file_example.py')
+get_ipython().magic('help')
+get_ipython().run_cell_magic('help', '', '')
+get_ipython().run_cell_magic('magic', '', '')
+get_ipython().magic('magic')
+get_ipython().magic('logstate')
+get_ipython().magic('logstart')
+get_ipython().magic('logstate')
+import logging
+
+Level = {'notset': logging.NOTSET,
+         'debug': logging.DEBUG,
+         'info' : logging.INFO,
+         'warning' : logging.WARNING, 
+         'error' : logging.ERROR,
+         'critical' : logging.CRITICAL}
+
+log_level_set = input(">>> log level ")
+
+w = Level.get(log_level_set, logging.NOTSET)
+logging.basicConfig(level=w)
+    
+print(" logging ", log_level_set)
+
+logging.debug('이 예제는 디버그 처리 %d' % w)
+logging.info(' 이 예제는 정보관리%d' % w)
+logging.warning('이 예제는 경고 처리%d' % w)
+logging.error(' 이 예제는 에러 관리 %d' % w)
+logging.critical('이 예제는 중요한 에러 발생 %d' % w)
+get_ipython().magic('logstart log.log')
+get_ipython().magic('logstop')
+get_ipython().magic('logstate')
+get_ipython().magic('logstart log.log')
+get_ipython().run_cell_magic('writefile', 'file_example.py', '\nimport logging\n\nlogging.basicConfig(filename="log.out", level=logging.DEBUG)\n\nlogging.debug("파일 출력")\n\nwith open("log.out","rt") as f :\n    s = f.read()\nprint(s)')
+get_ipython().magic('run file_example.py')
+get_ipython().magic('logstop')
